@@ -60,6 +60,7 @@ document.addEventListener('DOMContentLoaded', function () {
           tools: [
               { name: 'Vpnify', description: 'Free VPN', officialsite: 'https://vpnifyapp.com/', starred: false, privacyRating: '🟢' },
               { name: 'AdGuard VPN', description: 'Free VPN', officialsite: 'https://vpnifyapp.com/', starred: false, privacyRating: '🟡' },
+              { name: 'Orbot', description: 'TOR VPN', officialsite: 'https://orbot.app/en/', starred: true, privacyRating: '🟢' },
           ]
       },
       {
