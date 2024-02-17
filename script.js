@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded', function () {
           announcementVisible: false,
           announcement: '',
           tools: [
-              { name: 'Cromite', description: 'Bromite fork with privacy enhancements.', officialsite: 'https://github.com/uazo/cromite', starred: true, privacyRating: '🟢' },
               { name: 'AdGuard', description: 'Ad-blocker app.', officialsite: 'https://adguard.com/en/adguard-android/overview.html', starred: false, privacyRating: '🟡' },
               { name: 'Blokada', description: 'Open Source ad-blocking/tracker/malware app.', officialsite: 'https://blokada.org/', starred: false, privacyRating: '🟢' },
               { name: 'personalDNSfilter', description: 'DNS Ad-blocker', officialsite: 'https://blokada.org/', starred: true, privacyRating: '🟢' },
@@ -30,6 +29,18 @@ document.addEventListener('DOMContentLoaded', function () {
           ]
       },
       {
+          category: 'Android Browsers',
+          id: 'android-browsers',
+          announcementVisible: false,
+          announcement: '',
+          tools: [
+              { name: 'Cromite', description: 'Bromite fork with privacy enhancements.', officialsite: 'https://github.com/uazo/cromite', starred: true, privacyRating: '🟢' },
+              { name: 'Tor Browser', description: 'Private, secure, onion-routing Android browser.', officialsite: 'https://tb-manual.torproject.org/mobile-tor/', starred: true, privacyRating: '🟢' },
+              { name: 'Mull', description: 'A privacy hardened browser.', officialsite: 'https://gitlab.com/divested-mobile/mull-fenix', starred: true, privacyRating: '🟢' },
+              { name: 'DuckDuckGo Private Browser', description: 'Privacy-focused web browser.', officialsite: 'https://duckduckgo.com/app', starred: false, privacyRating: '🟢' },
+          ]
+      },
+      {
           category: 'Android Messaging',
           id: 'android-messaging',
           announcementVisible: false,
@@ -38,6 +49,7 @@ document.addEventListener('DOMContentLoaded', function () {
               { name: 'Signal', description: 'Privacy-focused messaging app with end-to-end encryption.', officialsite: 'https://signal.org/android/', starred: true, privacyRating: '🟢' },
               { name: 'Telegram', description: 'Cloud-based messaging app. Featuring encrypted chats, groups, and channels.', officialsite: 'https://telegram.org/', starred: false, privacyRating: '🟡' },
               { name: 'Threema', description: 'Secure messaging app that prioritizes privacy.', officialsite: 'https://threema.ch/en/', starred: false, privacyRating: '🟢' },
+              { name: 'Briar', description: 'Secure messaging app.', officialsite: 'https://briarproject.org/', starred: true, privacyRating: '🟢' },
           ]
       },
       {
@@ -176,3 +188,4 @@ function copyLink(categoryId) {
         copiedMessage.remove();
     }, 2000);
 }
+
