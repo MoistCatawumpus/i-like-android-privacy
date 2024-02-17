@@ -31,13 +31,33 @@ document.addEventListener('DOMContentLoaded', function () {
       {
           category: 'Android Browsers',
           id: 'android-browsers',
-          announcementVisible: false,
-          announcement: '',
+          announcementVisible: true,
+          announcement: 'Use <a href="https://ublockorigin.com/" target="_blank">uBlock Origin</a> to block ads, tracking, malware, and other annoyances. (Not supported for all browsers)',
           tools: [
               { name: 'Cromite', description: 'Bromite fork with privacy enhancements.', officialsite: 'https://github.com/uazo/cromite', starred: true, privacyRating: '🟢' },
               { name: 'Tor Browser', description: 'Private, secure, onion-routing Android browser.', officialsite: 'https://tb-manual.torproject.org/mobile-tor/', starred: true, privacyRating: '🟢' },
               { name: 'Mull', description: 'A privacy hardened browser.', officialsite: 'https://gitlab.com/divested-mobile/mull-fenix', starred: true, privacyRating: '🟢' },
               { name: 'DuckDuckGo Private Browser', description: 'Privacy-focused web browser.', officialsite: 'https://duckduckgo.com/app', starred: false, privacyRating: '🟢' },
+          ]
+      },
+            {
+          category: 'Android Encryption',
+          id: 'android-encryption',
+          announcementVisible: false,
+          announcement: '',
+          tools: [
+              { name: 'DroidFS', description: 'Store & access your files securely', officialsite: 'https://f-droid.org/packages/sushi.hardcore.droidfs/', starred: false, privacyRating: '🟡' },
+              { name: 'EDS Lite', description: 'Virtual disk encryption', officialsite: 'https://f-droid.org/packages/com.sovworks.edslite/', starred: false, privacyRating: '🟡' },
+          ]
+      },
+            {
+          category: 'Android Maps',
+          id: 'android-maps',
+          announcementVisible: false,
+          announcement: '',
+          tools: [
+              { name: 'OsmAnd~', description: 'Global Mobile Map Viewing & Navigation for Offline and Online OSM Maps.', officialsite: 'https://f-droid.org/packages/net.osmand.plus/', starred: false, privacyRating: '🟡' },
+              { name: 'Organic Maps', description: 'Navigate with Privacy - Community-Driven & Open-Source', officialsite: 'https://f-droid.org/packages/app.organicmaps/', starred: true, privacyRating: '🟢' },
           ]
       },
       {
@@ -61,6 +81,8 @@ document.addEventListener('DOMContentLoaded', function () {
               { name: 'Vpnify', description: 'Free VPN', officialsite: 'https://vpnifyapp.com/', starred: false, privacyRating: '🟢' },
               { name: 'AdGuard VPN', description: 'Free VPN', officialsite: 'https://vpnifyapp.com/', starred: false, privacyRating: '🟡' },
               { name: 'Orbot', description: 'TOR VPN', officialsite: 'https://orbot.app/en/', starred: true, privacyRating: '🟢' },
+              { name: 'Riseup VPN', description: 'Free VPN', officialsite: 'https://f-droid.org/en/packages/se.leap.riseupvpn/', starred: false, privacyRating: '🟢' },
+              { name: 'Mullvad VPN', description: 'Paid VPN', officialsite: 'https://f-droid.org/packages/net.mullvad.mullvadvpn/', starred: false, privacyRating: '🟢' },
           ]
       },
       {
