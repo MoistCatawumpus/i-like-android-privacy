@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
           category: 'Android Browsers',
           id: 'android-browsers',
           announcementVisible: true,
-          announcement: 'Use <a href="https://ublockorigin.com/" target="_blank">uBlock Origin</a> to block ads, tracking, malware, and other annoyances. (Not supported for all browsers)',
+          announcement: 'Use <a href="https://ublockorigin.com/" target="_blank">uBlock Origin</a> to block ads, tracking, malware, and other annoyances. (Not supported for all android browsers)',
           tools: [
               { name: 'Cromite', description: 'Bromite fork with privacy enhancements.', officialsite: 'https://github.com/uazo/cromite', starred: true, privacyRating: '🟢' },
               { name: 'Tor Browser', description: 'Private, secure, onion-routing Android browser.', officialsite: 'https://tb-manual.torproject.org/mobile-tor/', starred: true, privacyRating: '🟢' },
@@ -95,6 +95,31 @@ document.addEventListener('DOMContentLoaded', function () {
               { name: 'Ente', description: '2FA app for Android.', officialsite: 'https://github.com/ente-io/auth/', starred: false, privacyRating: '🟢' },
               { name: 'Authenticator Pro', description: 'Open Source 2FA app for Android.', officialsite: 'https://github.com/jamie-mh/AuthenticatorPro', starred: false, privacyRating: '🟢' },
               { name: 'Google Authenticator', description: '2FA app made by Google.', officialsite: 'https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en&gl=US', starred: false, privacyRating: '🟠' },
+          ]
+      },
+      {
+          category: 'Android App Permission Managers',
+          id: 'android-app-permission-managers',
+          announcementVisible: false,
+          announcement: '',
+          tools: [
+              { name: 'TrackerControl', description: 'Permission Manager', officialsite: 'https://trackercontrol.org/', starred: false, privacyRating: '🟢' },
+              { name: 'Permission Pilot', description: 'Permission Manager', officialsite: 'https://github.com/d4rken-org/permission-pilot', starred: false, privacyRating: '🟢' },
+              { name: 'Yivi', description: 'Permission Manager', officialsite: 'https://github.com/privacybydesign/irmamobile', starred: false, privacyRating: '🟢' },
+              { name: 'Exodus', description: 'Permission Manager', officialsite: 'https://reports.exodus-privacy.eu.org/en/', starred: false, privacyRating: '🟢' },
+              { name: 'HideDroid', description: 'Permission Manager', officialsite: 'https://github.com/Mobile-IoT-Security-Lab/HideDroid', starred: false, privacyRating: '🟢' },
+          ]
+      },
+      {
+          category: 'Android Health Apps',
+          id: 'android-health',
+          announcementVisible: false,
+          announcement: '',
+          tools: [
+              { name: 'AAT', description: 'GPS-tracking app for sportive activities, with emphasis on cycling.', officialsite: 'https://f-droid.org/packages/ch.bailu.aat', starred: false, privacyRating: '🟢' },
+              { name: 'FitoTrack', description: 'Privacy oriented fitness tracker', officialsite: 'https://f-droid.org/packages/de.tadris.fitness', starred: true, privacyRating: '🟢' },
+              { name: 'Paseo', description: 'Open source step counting app.', officialsite: 'https://f-droid.org/packages/ca.chancehorizon.paseo/', starred: true, privacyRating: '🟢' },
+              { name: 'openWorkout', description: 'Privacy oriented workout trainer.', officialsite: 'https://f-droid.org/packages/com.health.openworkout/', starred: false, privacyRating: '🟢' },
           ]
       },
   ];
