@@ -1,7 +1,7 @@
 :root {
     --primary-color: #61dafb;
-    --background-color: #282c35;
-    --container-background: #38424d;
+    --background-color: #121212;
+    --container-background: #1e1e1e;
     --border-color: #485363;
     --text-color: #ffffff;
     --button-hover-color: #3e8ef7;
@@ -105,6 +105,8 @@ a:hover {
     width: 60%;
     box-sizing: border-box;
     transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    background-color: var(--container-background);
+    color: var(--text-color);
 }
 
 #searchInput:focus {
@@ -122,6 +124,8 @@ a:hover {
     cursor: pointer;
     transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
     outline: none;
+    display: block;
+    margin: 0 auto;
 }
 
 .button:hover {
@@ -137,6 +141,8 @@ a:hover {
     background-color: var(--container-background);
     color: var(--text-color);
     transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 #platform:focus {
@@ -150,11 +156,16 @@ a:hover {
 
 .tool {
     margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background-color: var(--container-background);
 }
 
 .tool h3 {
     font-size: 16px;
     margin-bottom: 5px;
+    color: var(--primary-color);
 }
 
 .tool p {
@@ -164,7 +175,8 @@ a:hover {
 
 .tool .description {
     margin-top: 5px;
-    font-size: 0.9rem;
+    font-size:  0.9rem;
+    color: var(--text-color);
 }
 
 .copied-message {
