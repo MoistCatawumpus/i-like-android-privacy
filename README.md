@@ -1,7 +1,11 @@
 # **🔒 I Like Android Privacy**
 Your **go-to** resource for privacy tools specifically designed for **Android** devices. Explore the tools below and safeguard your privacy on Android!
 
-`Currently a work in progress...`
+---
+
+ATTENTION! THIS SITE WILL NO LONGER BE UPDATED! THIS PROJECT HAS BEEN REBRANDED TO "📱 I Like Android" AND CAN NOW BE ACCESSED AT https://i-like-android.github.io/ !!!
+
+---
 
 ## Privacy Ratings:
 ```
