@@ -151,7 +151,6 @@ document.addEventListener('DOMContentLoaded', function () {
             announcement: '',
             tools: [
                 { name: 'Malwarebytes Security', description: 'Malware scanner and removal tool.', officialsite: 'https://www.malwarebytes.com/mobile/', starred: true, privacyRating: '🟢' },
-                { name: 'Avast Antivirus', description: 'Antivirus and security tool.', officialsite: 'https://www.avast.com/', starred: false, privacyRating: '🟠' },
                 { name: 'Bitdefender Antivirus', description: 'Antivirus and malware removal app.', officialsite: 'https://www.bitdefender.com/', starred: false, privacyRating: '🟡' }
             ]
         },
